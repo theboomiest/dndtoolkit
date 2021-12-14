@@ -1,45 +1,395 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <!-- Bootstrap CSS -->
+		<!-- Bootstrap CSS -->
 		<link
-        rel="stylesheet"
-        href="node_modules/bootstrap/dist/css/bootstrap.min.css"
-    />
+			rel="stylesheet"
+			href="node_modules/bootstrap/dist/css/bootstrap.min.css"
+		/>
 
-    <!-- Overwrite CSS -->
-    <link
-        rel="stylesheet"
-        href="https://fonts.googleapis.com/css?family=Lobster|Open+Sans"
-    />
-    <link rel="stylesheet" href="css/styles.css" />
-    <link
-        rel="stylesheet"
-        href="node_modules/font-awesome/css/font-awesome.min.css"
-    />
-    <link
-        rel="stylesheet"
-        href="node_modules/bootstrap-social/bootstrap-social.css"
-    />
+		<!-- Overwrite CSS -->
+		<link
+			rel="stylesheet"
+			href="https://fonts.googleapis.com/css?family=Lobster|Open+Sans"
+		/>
+		<link rel="stylesheet" href="css/styles.css" />
+		<link
+			rel="stylesheet"
+			href="node_modules/font-awesome/css/font-awesome.min.css"
+		/>
+		<link
+			rel="stylesheet"
+			href="node_modules/bootstrap-social/bootstrap-social.css"
+		/>
 
-    <title>DM Quick Reference</title>
-</head>
-<body>
-    
+		<title>DM Quick Reference</title>
+	</head>
 
-    <!-- Scripts for JQuery, Popper, Bootstrap -->
-    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
-    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
-    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+	<body>
+		<div class="container-fluid p-5">
+			<div class="row"> <!-- This holds the 3 pillar tabs and the general ref rules inside -->
+				<div class="col-lg-9"> <!-- Tabs for 3 pillars -->
+					<ul class="nav nav-tabs nav-justified">
+						<li class="nav-item">
+							<a
+								class="nav-link active"
+								href="#theDungeon"
+								role="tab"
+								data-toggle="tab"
+								><h4>The Dungeon</h4></a
+							>
+						</li>
+						<li class="nav-item">
+							<a
+								class="nav-link"
+								href="#theTavern"
+								role="tab"
+								data-toggle="tab"
+								><h4>The Tavern</h4></a
+							>
+						</li>
+						<li class="nav-item">
+							<a
+								class="nav-link"
+								href="#theRoad"
+								role="tab"
+								data-toggle="tab"
+								><h4>The Road</h4></a
+							>
+						</li>
+					</ul>
+					<div class="tab-content">
+						<div
+							role="tab-panel"
+							class="
+								tab-pane
+								fade
+								show
+								active
+								border border-top-0
+							"
+							id="theDungeon"
+						>
+							<div class="container-fluid">
+								<div class="row">
+									<div class="col m-3">
+										<div class="row">
+											<div
+												class="
+													col
+													border
+													rounded-top
+													pt-1
+												"
+											>
+												<h6>Combat</h6>
+											</div>
+										</div>
+										<div class="row">
+											<div
+												class="
+													col
+													border border-top-0
+													rounded-bottom
+													py-1
+												"
+											>
+												Lorem ipsum dolor sit amet
+												consectetur adipisicing elit.
+												Assumenda ab quam saepe quaerat.
+												Reprehenderit tenetur impedit
+												assumenda quas aliquam qui
+												molestiae, voluptate eveniet
+												iste perspiciatis, possimus
+												animi, quod quaerat at.
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col mx-3 mb-3">
+										<div class="row">
+											<div
+												class="
+													col
+													border
+													rounded-top
+													pt-1
+												"
+											>
+												<h6>Hazards</h6>
+											</div>
+										</div>
+										<div class="row">
+											<div
+												class="
+													col
+													border border-top-0
+													rounded-bottom
+													py-1
+												"
+											>
+												Lorem ipsum dolor sit amet
+												consectetur adipisicing elit.
+												Molestiae, rem quo perferendis
+												vero ab magni in, excepturi
+												laboriosam recusandae ipsam,
+												saepe eum? Voluptas quo laborum
+												hic at provident a facilis!
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col mx-3 mb-3">
+										<div class="row">
+											<div
+												class="
+													col
+													border
+													rounded-top
+													pt-1
+												"
+											>
+												<h6>Loot</h6>
+											</div>
+										</div>
+										<div class="row">
+											<div
+												class="
+													col
+													border border-top-0
+													rounded-bottom
+													py-1
+												"
+											>
+												Lorem, ipsum dolor sit amet
+												consectetur adipisicing elit.
+												Deleniti modi tempore
+												repudiandae doloremque quam,
+												voluptatibus harum inventore
+												eius voluptatem facilis dolorum
+												voluptates, maxime ipsa,
+												voluptatum iusto corrupti soluta
+												aut distinctio?
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div
+							rol="tab-panel"
+							class="tab-pane fade border border-top-0"
+							id="theTavern"
+						>
+							<div class="container-fluid">
+								<div class="row">
+									<div class="col m-3">
+										<div class="row">
+											<div
+												class="
+													col
+													border
+													rounded-top
+													pt-1
+												"
+											>
+												<h6>Services</h6>
+											</div>
+										</div>
+										<div class="row">
+											<div
+												class="
+													col
+													border border-top-0
+													rounded-bottom
+													py-1
+												"
+											>
+												Lorem ipsum dolor sit amet
+												consectetur adipisicing elit.
+												Fugiat porro quis accusantium
+												officiis nam reiciendis,
+												aspernatur temporibus quas
+												architecto molestias laborum et
+												beatae nulla sint necessitatibus
+												reprehenderit rem magni quod!
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col mx-3 mb-3">
+										<div class="row">
+											<div
+												class="
+													col
+													border
+													rounded-top
+													pt-1
+												"
+											>
+												<h6>Social Interactions</h6>
+											</div>
+										</div>
+										<div class="row">
+											<div
+												class="
+													col
+													border border-top-0
+													rounded-bottom
+													py-1
+												"
+											>
+												Lorem ipsum dolor sit amet
+												consectetur adipisicing elit.
+												Repellat sit animi explicabo
+												voluptatum ducimus dolorum non
+												doloremque illo commodi
+												praesentium, quidem iste iure
+												quia tempora dolores soluta quod
+												facilis sapiente.
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col mx-3 mb-3">
+										<div class="row">
+											<div
+												class="
+													col
+													border
+													rounded-top
+													pt-1
+												"
+											>
+												<h6>Downtime</h6>
+											</div>
+										</div>
+										<div class="row">
+											<div
+												class="
+													col
+													border border-top-0
+													rounded-bottom
+													py-1
+												"
+											>
+												Lorem, ipsum dolor sit amet
+												consectetur adipisicing elit.
+												Labore dolorum ad incidunt quam.
+												Nobis consequatur reprehenderit
+												ipsa, vero aperiam fugiat, quia
+												repellendus ipsum perferendis
+												quaerat, totam eveniet corrupti
+												qui impedit!
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div
+							rol="tab-panel"
+							class="tab-pane fade border border-top-0"
+							id="theRoad"
+						>
+							<div class="container-fluid">
+								<div class="row">
+									<div class="col m-3">
+										<div class="row">
+											<div
+												class="
+													col
+													border
+													rounded-top
+													pt-1
+												"
+											>
+												<h6>Exploration</h6>
+											</div>
+										</div>
+										<div class="row">
+											<div
+												class="
+													col
+													border border-top-0
+													rounded-bottom
+													py-1
+												"
+											>
+												Lorem ipsum dolor sit amet,
+												consectetur adipisicing elit.
+												Molestias, saepe eos veniam
+												magni, esse necessitatibus
+												aspernatur expedita voluptatem,
+												dolorem consequatur eius iste
+												illum. Suscipit, harum quia.
+												Ullam quibusdam eum tempore!
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col mx-3 mb-3">
+										<div class="row">
+											<div
+												class="
+													col
+													border
+													rounded-top
+													pt-1
+												"
+											>
+												<h6>Random Encounters</h6>
+											</div>
+										</div>
+										<div class="row">
+											<div
+												class="
+													col
+													border border-top-0
+													rounded-bottom
+													py-1
+												"
+											>
+												Lorem ipsum dolor sit amet,
+												consectetur adipisicing elit.
+												Vitae nihil nostrum aliquid
+												eligendi iste hic assumenda
+												optio ab. Eos voluptatibus
+												tenetur temporibus itaque fuga
+												et illum quia quidem, molestiae
+												nemo!
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col py-2 border text-center m-3 m-lg-0">
+					<h4>General Reference</h4> 
+				</div>
+			</div>
+		</div>
 
-    <script>
-        $(function () {
-            $('[data-toggle="tooltip"]').tooltip();
-        });
-    </script>
-</body>
+		<!-- Scripts for JQuery, Popper, Bootstrap -->
+		<script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+		<script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+		<script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+
+		<script>
+			$(function () {
+				$('[data-toggle="tooltip"]').tooltip();
+			});
+		</script>
+	</body>
 </html>
