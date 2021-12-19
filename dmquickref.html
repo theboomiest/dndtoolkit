@@ -11,11 +11,8 @@
 			href="node_modules/bootstrap/dist/css/bootstrap.min.css"
 		/>
 
-		<!-- Overwrite CSS -->
-		<link
-			rel="stylesheet"
-			href="https://fonts.googleapis.com/css?family=Lobster|Open+Sans"
-		/>
+		<!-- Alternate CSS -->
+		<link rel="stylesheet" href="" />
 		<link rel="stylesheet" href="css/styles.css" />
 		<link
 			rel="stylesheet"
@@ -30,9 +27,12 @@
 	</head>
 
 	<body>
-		<div class="container-fluid p-5">
-			<div class="row"> <!-- This holds the 3 pillar tabs and the general ref rules inside -->
-				<div class="col-lg-9"> <!-- Tabs for 3 pillars -->
+		<div class="container-fluid p-md-4 p-2">
+			<!-- 3 pillar tabs and general reference -->
+			<div class="row">
+				<!-- 3 pillars section -->
+				<div class="col-xl-9">
+					<!-- 3 pillar tabs, navbar only -->
 					<ul class="nav nav-tabs nav-justified">
 						<li class="nav-item">
 							<a
@@ -62,6 +62,7 @@
 							>
 						</li>
 					</ul>
+					<!-- Content for 3 pillar tabs -->
 					<div class="tab-content">
 						<div
 							role="tab-panel"
@@ -375,8 +376,88 @@
 						</div>
 					</div>
 				</div>
-				<div class="col py-2 border text-center m-3 m-lg-0">
-					<h4>General Reference</h4> 
+				<!-- General reference section -->
+				<div class="col py-2 border text-center m-3 m-xl-0">
+					<div class="row">
+						<div class="col">
+							<h4>General Reference</h4>
+						</div>
+					</div>
+					<div class="row py-2 mx-1">
+						<div
+							class="col-sm-6 col-lg-4 col-xl-12 media border py-2"
+							role="button"
+							data-toggle="modal"
+							data-target="#testModal"
+							data-trigger="focus"
+						>
+							<img
+								src="icons/bowl-of-rice.svg"
+								class="rule-icon"
+								alt=""
+							/>
+							<div class="media-body">
+								<h6>Test Header</h6>
+								Lorem ipsum dolor sit amet
+							</div>
+						</div>
+						<div
+							class="col-sm-6 col-lg-4 col-xl-12 media border py-2"
+							role="button"
+							data-toggle="modal"
+							data-target="#testModal"
+							data-trigger="focus"
+						>
+							<img
+								src="icons/bowl-of-rice.svg"
+								class="rule-icon"
+								alt=""
+							/>
+							<div class="media-body">
+								<h6>Test Header</h6>
+								Lorem ipsum dolor sit amet
+							</div>
+						</div>
+						<div
+							class="col-sm-6 col-lg-4 col-xl-12 media border py-2"
+							role="button"
+							data-toggle="modal"
+							data-target="#testModal"
+							data-trigger="focus"
+						>
+							<img
+								src="icons/bowl-of-rice.svg"
+								class="rule-icon"
+								alt=""
+							/>
+							<div class="media-body">
+								<h6>Test Header</h6>
+								Lorem ipsum dolor sit amet
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- Test modal for rules icons -->
+		<div
+			class="modal fade"
+			id="testModal"
+			tabindex="-1"
+			role="dialog"
+			aria-labelledby="exampleModalCenterTitle"
+			aria-hidden="true"
+		>
+			<div class="modal-dialog modal-dialog-centered" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h5 class="modal-title" id="exampleModalLongTitle">
+							Test Modal
+						</h5>
+					</div>
+					<div class="modal-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti error blanditiis odit accusamus perferendis tenetur repellat praesentium quia soluta veritatis! Sint non animi vel nostrum officiis fuga. Ex, odit adipisci!</div>
+					<div class="modal-footer"></div>
 				</div>
 			</div>
 		</div>
